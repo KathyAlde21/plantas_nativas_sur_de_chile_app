@@ -30,13 +30,13 @@
 
 <hr style="border: none; height: 2px; background-color: blue; width: 80%;">
 
-<!-- **<h3>:book: Link a video en Youtube que muestra proyecto ejecutado:</h3>** -->
+**<h3>:book: Link a video en Youtube que muestra proyecto ejecutado:</h3>**
 
-<!-- <p align="center">
-  <a href="https://www.youtube.com/watch?v=6VQe9vkByBM" target="_blank" style="display:inline-block; padding:10px 20px; background:#ff0000; color:white; border-radius:8px; text-decoration:none; font-weight:bold;">
+<p align="center">
+  <a href="https://youtu.be/QYCgeJ69vcQ" target="_blank" style="display:inline-block; padding:10px 20px; background:#ff0000; color:white; border-radius:8px; text-decoration:none; font-weight:bold;">
     ▶️ Ver en YouTube
   </a>
-</p> -->
+</p>
 
 **<h3>📁 Estructura del Proyecto Android:</h3>**
 
@@ -46,11 +46,21 @@
 ├── 🟧 AndroidManifest.xml
 ├── 📁 java
 │   ├── 📁 com.example.plantasnativassurchile
+│   │   ├── 📁 data
+│   │   │    ├── 🟦 Plant.kt
+│   │   │    └── 🟦 PlantsRepository.kt
+│   │   ├── 📁 navigation
+│   │   │    └── 🟦 AppNavigation.kt
 │   │   ├── 📁 ui
+│   │   │   ├──📁 components
+│   │   │   │   └── 🟦 PlantCard.kt
+│   │   │   ├── 📁 screens
+│   │   │   │    ├── 🟦 PlantDetailScreen.kt
+│   │   │   │    └── 🟦 PlantListScreen.kt
 │   │   │   └── 📁 theme
-│   │   │    ├── 🟦 MainActivity.java
-│   │   │    ├── 🟦 MainActivity.java
-│   │   │    └── 🟦 MainActivity.java
+│   │   │        ├── 🟦 Color.kt
+│   │   │        ├── 🟦 Theme.kt
+│   │   │        └── 🟦 Type.kt
 |   |   ├── 🟦 MainActivity.java
 │   │   └── 🟦 MainActivity.java
 │   ├── 📁 com.example.plantasnativassurchile (android Test)
@@ -62,11 +72,10 @@
 │   ├── 📁 drawable
 │   │   ├── 🖼️ app_plantas_nativas_abp_1.png
 │   │   ├── 🖼️ app_plantas_nativas_abp_2.jpg
-│   │   ├── 🖼️ world.jpg
+│   │   ├── 🖼️ app_plantas_nativas_abpro_1.jpg
+│   │   ├── 🖼️ app_plantas_nativas_abpro_2.jpg
 │   │   ├── 🟧 ic_launcher_background.xml
 │   │   └── 🟧 ic_launcher_foreground.xml
-│   ├── 📁 layout
-│   │   └── 🟧 activity_main.xml
 │   ├── 📁 mipmap
 │   │   ├── 📁 ic_launcher
 │   │   └── 📁 ic_launcher_round
@@ -98,8 +107,8 @@
 
 **<h3>:book: Imagen general del proyecto Etapa 2 (ABPRO AE2):</h3>**
 
-<img src="./app/src/main/res/drawable/image_project.jpg" alt="Proyecto Vista General" style="width: 80%;">
+<img src="./app/src/main/res/drawable/app_plantas_nativas_abpro_2.jpg" alt="Proyecto Vista General" style="width: 80%;">
 
 **<h3>:book: Capturas de pantalla de la interfaz de usuario final Etapa 2 (ABPRO AE2):</h3>**
 
-<img src="./app/src/main/res/drawable/hello_world_cellphone.png" alt="Vista Celular" style="width: 40%;">
+<img src="./app/src/main/res/drawable/app_plantas_nativas_abpro_1.jpg" alt="Vista Celular" style="width: 40%;">
