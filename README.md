@@ -4,14 +4,16 @@
 
 <p>Crear una aplicación Android con Jetpack Compose que muestre una lista de plantas nativas chilenas utilizando LazyColumn:</p>
 
-<img src="./app/src/main/res/drawable/wireframe_plantas_nativas_abp.jpg" alt="Wireframe Aplicacion ABP" style="width: 40%;">
+<p align="center">
+  <img src="./app/src/main/res/drawable/wireframe_plantas_nativas_abp.jpg" alt="Wireframe Aplicacion ABP" style="width: 15%;">
+</p>
 
 **<h3>:orange_book: Características de la Implementación:</h3>**
 
-✅ LazyColumn para renderizado eficiente
-✅ Cards con diseño Material 3
-✅ Imágenes circulares de las plantas
-✅ Nombres científicos en cursiva
+- ✅ LazyColumn para renderizado eficiente
+- ✅ Cards con diseño Material 3
+- ✅ Imágenes circulares de las plantas
+- ✅ Nombres científicos en cursiva
 
 <hr style="border: none; height: 2px; background-color: blue; width: 80%;">
 
@@ -20,13 +22,15 @@
 <p>Crear una aplicación Android con Jetpack Compose del tipo Master/Detail.</p>
 <p>Es una expansión del trabajo individual anterior. Se debe implementar una segunda pantalla para mostrar el detalle de cada especie al clicar en la tarjeta correspondiente.</p>
 
-<img src="./app/src/main/res/drawable/wireframe_plantas_nativas_abpro.jpg" alt="Wireframe Aplicacion ABPRO" style="width: 40%;">
+<p align="center">
+  <img src="./app/src/main/res/drawable/wireframe_plantas_nativas_abpro.jpg" alt="Wireframe Aplicacion ABPRO" style="width: 15%;">
+</p>
 
 **<h3>:orange_book: Características de la Implementación:</h3>**
 
-✅ Pantalla de detalle muestra una descripción de la especie
-✅ Avatar y nombre de la especie ampliados
-✅ Botón para volver a la pantalla principal
+- ✅ Pantalla de detalle muestra una descripción de la especie
+- ✅ Avatar y nombre de la especie ampliados
+- ✅ Botón para volver a la pantalla principal
 
 <hr style="border: none; height: 2px; background-color: blue; width: 80%;">
 
@@ -99,16 +103,24 @@
 
 **<h3>:book: Imagen general del proyecto Etapa 1 (ABP AE2):</h3>**
 
-<img src="./app/src/main/res/drawable/app_plantas_nativas_abp_2.jpg" alt="Proyecto Vista General" style="width: 80%;">
+<p align="center">
+  <img src="./app/src/main/res/drawable/app_plantas_nativas_abp_2.jpg" alt="Proyecto Vista General" style="width: 80%;" align="center">
+</p>
 
 **<h3>:book: Capturas de pantalla de la interfaz de usuario final Etapa 1 (ABP AE2):</h3>**
 
-<img src="./app/src/main/res/drawable/app_plantas_nativas_abp_1.png" alt="Vista Celular" style="width: 40%;">
+<p align="center">
+  <img src="./app/src/main/res/drawable/app_plantas_nativas_abp_1.png" alt="Vista Celular" style="width: 30%;" align="center">
+</p>
 
 **<h3>:book: Imagen general del proyecto Etapa 2 (ABPRO AE2):</h3>**
 
-<img src="./app/src/main/res/drawable/app_plantas_nativas_abpro_2.jpg" alt="Proyecto Vista General" style="width: 80%;">
+<p align="center">
+  <img src="./app/src/main/res/drawable/app_plantas_nativas_abpro_2.jpg" alt="Proyecto Vista General" style="width: 80%;">
+</p>
 
 **<h3>:book: Capturas de pantalla de la interfaz de usuario final Etapa 2 (ABPRO AE2):</h3>**
 
-<img src="./app/src/main/res/drawable/app_plantas_nativas_abpro_1.png" alt="Vista Celular" style="width: 40%;">
+<p align="center">
+  <img src="./app/src/main/res/drawable/app_plantas_nativas_abpro_1.png" alt="Vista Celular" style="width: 30%;" align="center">
+</p>
