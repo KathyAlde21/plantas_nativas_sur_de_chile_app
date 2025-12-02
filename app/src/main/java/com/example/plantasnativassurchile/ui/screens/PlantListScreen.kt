@@ -14,12 +14,15 @@ import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.example.plantasnativassurchile.data.Plant
 import com.example.plantasnativassurchile.data.PlantsRepository
 import com.example.plantasnativassurchile.ui.components.PlantCard
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun PlantListScreen() {
+fun PlantListScreen(
+    onPlantClick: (Plant) -> Unit
+    ) {
     Scaffold(
         topBar = {
             TopAppBar(
@@ -39,7 +42,10 @@ fun PlantListScreen() {
                 items = PlantsRepository.plants,
                 key = { it.id }
             ) { plant ->
-                PlantCard(plant = plant)
+                PlantCard(
+                    plant = plant,
+                    onClick = { onPlantClick(plant) }
+                )
             }
         }
     }

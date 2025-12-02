@@ -6,5 +6,6 @@ data class Plant(
     val id: Int,
     val commonName: String,
     val scientificName: String,
-    @DrawableRes val imageRes: Int
+    @DrawableRes val imageRes: Int,
+    val description: String
 )
