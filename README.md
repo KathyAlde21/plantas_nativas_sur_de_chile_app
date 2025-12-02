@@ -111,4 +111,4 @@
 
 **<h3>:book: Capturas de pantalla de la interfaz de usuario final Etapa 2 (ABPRO AE2):</h3>**
 
-<img src="./app/src/main/res/drawable/app_plantas_nativas_abpro_1.jpg" alt="Vista Celular" style="width: 40%;">
+<img src="./app/src/main/res/drawable/app_plantas_nativas_abpro_1.png" alt="Vista Celular" style="width: 40%;">
